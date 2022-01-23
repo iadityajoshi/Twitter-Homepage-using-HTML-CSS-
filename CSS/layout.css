@@ -1,0 +1,26 @@
+.layout {
+  display: grid;
+  grid-template-columns: 275px auto 350px;
+  margin: 0 auto;
+  max-width: 1250px;
+}
+.layout_right-sidebar {
+  position: fixed;
+}
+
+.layout_main {
+  border-left: 0.5px solid rgb(236, 232, 232);
+  border-right: 0.5px solid rgb(236, 232, 232);
+}
+
+/* @media only screen and (max-width: 600px) {
+  .layout_left_sidebar, .layout_right_sidebar-container {
+    display: none;
+  }
+  .layout_main{
+      width: 100%;
+  }
+  .layout{
+    grid-template-columns: 0px auto 0px
+  }
+} */
